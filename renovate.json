@@ -13,7 +13,9 @@
       ],
       "enabled": true,
       "rangeStrategy": "bump",
-      "automerge": true
+      "automerge": true,
+      "automergeType": "pr",
+      "requiredStatusChecks": null
     },
     {
       "matchDepTypes": [
