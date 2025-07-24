@@ -99,3 +99,48 @@
    - 所有 jy-icons 图标会以 flex-wrap 自动换行展示。
    - 每个图标下方显示其名称。
    - 支持自定义样式和筛选部分图标。
+
+---
+
+### 自动依赖更新（Renovate）
+
+本项目推荐使用 [Renovate](https://docs.renovatebot.com/) 自动检测和更新依赖，保证 `jy-icons` 等 icon 包始终为最新版本。
+
+#### 1. 配置方法
+
+在项目根目录新建 `renovate.json`，示例内容：
+
+```json
+{
+  "extends": ["config:base"],
+  "packageRules": [
+    {
+      "matchPackageNames": ["jy-icons"],
+      "groupName": "icon dependencies",
+      "automerge": true,
+      "automergeType": "branch"
+    }
+  ],
+  "labels": ["dependencies", "auto-update"],
+  "prHourlyLimit": 2,
+  "prConcurrentLimit": 5
+}
+```
+
+#### 2. 字段说明
+
+- `extends`：继承官方推荐基础配置。
+- `packageRules`：对特定依赖（如 jy-icons）设置自动合并、分组等策略。
+- `labels`：自动 PR 打标签，便于筛选。
+- `prHourlyLimit`/`prConcurrentLimit`：限制 PR 数量，防止打扰。
+- `automerge`：自动合并通过测试的依赖更新。
+
+#### 3. 启用方式
+
+- 将 `renovate.json` 放到项目根目录。
+- 在 GitHub（或其他平台）安装并启用 Renovate App。
+- 合并自动 PR 后即可自动保持依赖最新。
+
+更多高级用法和配置请参考：[Renovate 官方文档](https://docs.renovatebot.com/configuration-options/)
+
+---
