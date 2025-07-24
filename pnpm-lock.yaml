@@ -12,8 +12,8 @@ importers:
         specifier: ^4.1.0
         version: 4.3.0(vue@3.5.18(typescript@5.8.3))
       jy-icons:
-        specifier: ^1.0.18
-        version: 1.0.18
+        specifier: ^1.0.21
+        version: 1.0.21
       vue:
         specifier: ^3.2.47
         version: 3.5.18(typescript@5.8.3)
@@ -291,8 +291,8 @@ packages:
     resolution: {integrity: sha512-F/1DnUGPopORZi0ni+CvrCgHQ5FyEAHRLSApuYWMmrbSwoN2Mn/7k+Gl38gJnR7yyDZk6WLXwiGod1JOWNDKGw==}
     hasBin: true
 
-  jy-icons@1.0.18:
-    resolution: {integrity: sha512-FsRekUxnrnrgwpKdOlQ9v5IfsjzFWIAFHRDuyNd5uDaFFTxFwfEgBQag6zFykiuRB7k9fIFr2tnBC/92+zEoBg==}
+  jy-icons@1.0.21:
+    resolution: {integrity: sha512-0RZSkwuSVCm5lMNRIE7J+aw6PWMqOzwlVjCTJNKsDq9R/X9zqx5HFq+iWH/GQnQ6QrncChMBBwWfBORmvRl7tg==}
 
   magic-string@0.30.17:
     resolution: {integrity: sha512-sNPKHvyjVf7gyjwS4xGTaW/mCnF8wnjtifKBEhxfZ7E/S8tQ0rssrwGNn6q8JH/ohItJfSQp9mBtQYuTlH5QnA==}
@@ -620,7 +620,7 @@ snapshots:
 
   he@1.2.0: {}
 
-  jy-icons@1.0.18:
+  jy-icons@1.0.21:
     dependencies:
       '@iconify/types': 2.0.0
 
