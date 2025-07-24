@@ -1,6 +1,24 @@
 {
-  "$schema": "https://docs.renovatebot.com/renovate-schema.json",
   "extends": [
-    "config:recommended"
+    "config:base"
+  ],
+  "packageRules": [
+    {
+      "matchPackageNames": [
+        "jy-icons"
+      ],
+      "groupName": "jy-icons",
+      "enabled": true,
+      "rangeStrategy": "replace",
+      "automerge": true
+    },
+    {
+      "matchDepTypes": [
+        "dependencies",
+        "devDependencies",
+        "peerDependencies"
+      ],
+      "enabled": false
+    }
   ]
 }

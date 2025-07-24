@@ -16,9 +16,14 @@
 2. 修改 `scripts/figma.config.js` 的 Figma fileId。
 3. Figma 插件推送到 GitHub Actions 自动运行。
 
+### 待完善
+
+- 将 iconify json 转成 svg 的组件，如`@element-plus/icons-vue`，通过 vite iconResolver 按需引入。
+
 ## icon-demo-app
 
-- 演示如何在 Vue 中使用生成的 `jy-icons`（Iconify JSON 格式的自定义图标集）。
+- 演示如何在 Vue 中使用生成的 `jy-icons`（Iconify JSON 格式的自定义图标集）
+- 配置 Renovate 自动发 MR 更新 `jy-icons` 图标依赖。
 
 ### 使用方法
 
@@ -94,8 +99,3 @@
    - 所有 jy-icons 图标会以 flex-wrap 自动换行展示。
    - 每个图标下方显示其名称。
    - 支持自定义样式和筛选部分图标。
-
-### 待完善
-
-- 配置 Renovate 自动发 MR 更新图标依赖。
-- 将 iconify json 转成 svg 的组件，如`@element-plus/icons-vue`，通过 vite iconResolver 按需引入。
