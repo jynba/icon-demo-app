@@ -1,15 +1,18 @@
 {
   "extends": [
-    "config:base"
+    "config:recommended"
   ],
+  "forkProcessing": "enabled",
   "packageRules": [
     {
       "matchPackageNames": [
         "jy-icons"
       ],
-      "groupName": "jy-icons",
+      "matchDepTypes": [
+        "dependencies"
+      ],
       "enabled": true,
-      "rangeStrategy": "replace",
+      "rangeStrategy": "bump",
       "automerge": true
     },
     {
@@ -18,7 +21,10 @@
         "devDependencies",
         "peerDependencies"
       ],
-      "enabled": false
+      "enabled": false,
+      "excludePackageNames": [
+        "jy-icons"
+      ]
     }
   ]
 }
