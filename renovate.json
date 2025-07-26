@@ -6,7 +6,9 @@
   "packageRules": [
     {
       "matchPackageNames": [
-        "jy-icons"
+        "@mot-iron/iconify-json",
+        "@mot-iron/iconify-svg",
+        "@mot-iron/iconify-vue"
       ],
       "matchDepTypes": [
         "dependencies"
@@ -25,7 +27,9 @@
       ],
       "enabled": false,
       "excludePackageNames": [
-        "jy-icons"
+        "@mot-iron/iconify-json",
+        "@mot-iron/iconify-svg",
+        "@mot-iron/iconify-vue"
       ]
     }
   ]
