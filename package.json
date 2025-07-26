@@ -9,7 +9,7 @@
     "preview": "vite preview"
   },
   "dependencies": {
-    "@mot-iron/iconify-json": "^1.0.0",
+    "@mot-iron/iconify-json": "^1.0.12",
     "@mot-iron/iconify-svg": "^1.0.0",
     "@mot-iron/iconify-vue": "^1.0.0",
     "vue": "^3.2.47"
