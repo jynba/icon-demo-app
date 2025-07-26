@@ -9,8 +9,8 @@ importers:
   .:
     dependencies:
       '@mot-iron/iconify-json':
-        specifier: ^1.0.0
-        version: 1.0.0
+        specifier: ^1.0.12
+        version: 1.0.12
       '@mot-iron/iconify-svg':
         specifier: ^1.0.0
         version: 1.0.0
@@ -214,8 +214,8 @@ packages:
   '@jridgewell/sourcemap-codec@1.5.4':
     resolution: {integrity: sha512-VT2+G1VQs/9oz078bLrYbecdZKs912zQlkelYpuf+SXF+QvZDYJlbx/LSx+meSAwdDFnF8FVXW92AVjjkVmgFw==}
 
-  '@mot-iron/iconify-json@1.0.0':
-    resolution: {integrity: sha512-rzvo84YAEOGa+5/0D+TzybMBshepcZY6BEFJV8OHh3Q6BVFwAMLpTf8oo10K6npLAa4zOLwtllZHZDJN7sgx4A==}
+  '@mot-iron/iconify-json@1.0.12':
+    resolution: {integrity: sha512-HwFd+KeSuO66N9n1bQ1ViEEjNnPyJEFAEMWjenuNBe5QaeDwddrIOreXxQlHGYpFPk/bp7UHqOayKfHdUvmh8w==}
 
   '@mot-iron/iconify-svg@1.0.0':
     resolution: {integrity: sha512-jThWKZ17rJLple7nwaY2srIlw4znJyvjEf/AYuLZcBdNMuFnaYkTaIjA+xI1yWGtXAZ4UcK7WD90KbO7ZGR9nA==}
@@ -702,7 +702,7 @@ snapshots:
 
   '@jridgewell/sourcemap-codec@1.5.4': {}
 
-  '@mot-iron/iconify-json@1.0.0':
+  '@mot-iron/iconify-json@1.0.12':
     dependencies:
       '@iconify/types': 2.0.0
 
