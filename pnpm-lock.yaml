@@ -15,8 +15,8 @@ importers:
         specifier: ^1.0.12
         version: 1.0.12
       '@mot-iron/iconify-vue':
-        specifier: ^1.0.0
-        version: 1.0.0(vue@3.5.18(typescript@5.8.3))
+        specifier: ^1.0.12
+        version: 1.0.12(vue@3.5.18(typescript@5.8.3))
       vue:
         specifier: ^3.2.47
         version: 3.5.18(typescript@5.8.3)
@@ -220,8 +220,8 @@ packages:
   '@mot-iron/iconify-svg@1.0.12':
     resolution: {integrity: sha512-JxsTyVGyJjxjh5tdmo4IXOTnJwoXBoWepA6Ej9co+eTOuJmAtCiAokebKT9ufrzziNy3WJuH1INryu+V8ocRbw==}
 
-  '@mot-iron/iconify-vue@1.0.0':
-    resolution: {integrity: sha512-1qYjhYJeEDmkSqiVRpOMZQj8a1zaVydHwz1iR4NKwZ4jjy8KvDJvCG2wRi6FScPBVRfaRS7FvhJNgLjbE1OSmQ==}
+  '@mot-iron/iconify-vue@1.0.12':
+    resolution: {integrity: sha512-NPdZnvstjLLs0vwOU0zWqnsQsNOe5fGWwowIJyps9vbiiL+tAzLnakD3ZUhiEM+mVsmoo5rg9PP7sm8nTxjafQ==}
     peerDependencies:
       vue: ^3.2.0
 
@@ -708,7 +708,7 @@ snapshots:
 
   '@mot-iron/iconify-svg@1.0.12': {}
 
-  '@mot-iron/iconify-vue@1.0.0(vue@3.5.18(typescript@5.8.3))':
+  '@mot-iron/iconify-vue@1.0.12(vue@3.5.18(typescript@5.8.3))':
     dependencies:
       vue: 3.5.18(typescript@5.8.3)
 
