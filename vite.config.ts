@@ -28,6 +28,7 @@ function MotIconsResolver() {
 
 // https://vitejs.dev/config/
 export default defineConfig({
+  base: '/iconify-ci-demo/', // 添加此行，设置GitHub Pages的基础路径
   plugins: [
     vue(),
     Icons({
