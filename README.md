@@ -44,6 +44,8 @@ iconify-ci-demo/
 
 演示如何在 Vue 3 项目中使用 `@mot-iron/iconify-vue` 图标组件，配置按需导入和自动组件解析。
 
+[demo 地址](https://jynba.github.io/icon-demo-app/)
+
 ### 功能特性
 
 #### Web 端：
